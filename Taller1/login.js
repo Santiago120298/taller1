@@ -34,8 +34,11 @@ btn.addEventListener('click', () => {
             window.location.href = "./home.html"
         } else {
             msj.innerHTML = 'Contraseña incorrecta'
+            msj.setAttribute('class', "error")
+
         }
     } else {
         msj.innerHTML = `Usuario  ${usuario.value} no registrado`
+        msj.setAttribute('class', "error")
     }
 })

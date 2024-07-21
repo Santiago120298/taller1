@@ -1,0 +1,77 @@
+/* LOGIN*/
+.contenedor{
+    background-color: rgb(236, 216, 250);
+    padding: 1rem;
+    width: 200px;
+    border: 1px solid #f80202;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+/* REGISTRO*/
+
+.contenedorRegistro{
+    background-color: rgb(236, 216, 250);
+    padding: 1rem;
+    width: 200px;
+    border: 1px solid #f80202;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+
+}
+/* HOME*/
+.contenedorHome{
+    background-color: rgb(236, 216, 250);
+    padding: 1rem;
+    width: 200px;
+    border: 1px solid #f80202;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+
+}
+/* RECUPERAR CONTRASEÑA*/
+.contenedorRecuperarContraseña{
+    background-color: rgb(236, 216, 250);
+    padding: 1rem;
+    width: 200px;
+    border: 1px solid #f80202;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+
+}
+/* CONTENEDORES EN GENERAL*/
+.contenedorDato{
+    margin: 5px;
+}
+
+.contenedorLink{
+    width: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+}
+
+.error{
+    font-size: larger;
+    color: red;
+}
+
+.ok {
+    font-size: larger;
+    color: green;
+}

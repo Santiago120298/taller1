@@ -36,6 +36,7 @@ btn.addEventListener('click', () => {
     //----------------------------------------
     if (existe(usuarios, correo.value)) {
         msj.innerText = ` el usuario ${nombre.value} ya existe`
+        msj.setAttribute('class', "error")
     } else {
 
         let objeto = {
@@ -48,6 +49,7 @@ btn.addEventListener('click', () => {
         localStorage.setItem('usuarios', JSON.stringify(usuarios))
 
         msj.innerText = ` el usuario fue registrado exitosamente`
+        msj.setAttribute('class', "ok")
 
         nombre.value = ''
         apellido.value = ''
